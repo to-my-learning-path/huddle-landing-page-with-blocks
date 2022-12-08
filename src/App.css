@@ -1,0 +1,80 @@
+:root {
+  /* ### Primary */
+
+  --pink: hsl(322, 100%, 66%);
+
+  /* ### Neutral */
+
+  --very-Pale-Cyan: hsl(193, 100%, 96%);
+  --very-Dark-Cyan: hsl(192, 100%, 9%);
+  --grayish-Blue: hsl(208, 11%, 55%);
+
+  --font-size: 18px;
+  --font-family-heading: "Open Sans", sans-serif;
+  --font-family-body: "Poppins", sans-serif;
+  --font-weight-400: 400;
+  --font-weight-600: 600;
+  --font-weight-700: 700;
+}
+
+/* CSS Reset */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+#root,
+#__next {
+  isolation: isolate;
+}
+
+/* General Styling */
+
+body {
+  font-size: var(--font-size);
+  font-family: var(--font-family-body);
+  color: var(--very-Dark-Cyan);
+
+  max-width: 1519px;
+  margin-inline: auto;
+}
+
+.container {
+  width: 85%;
+  margin-inline: auto;
+}
